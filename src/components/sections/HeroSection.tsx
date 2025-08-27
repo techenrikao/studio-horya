@@ -10,21 +10,21 @@ const HeroSection = () => {
           <div className="space-y-8 animate-fade-up">
             <div className="space-y-4">
               <div className="flex items-center space-x-2 text-sm font-medium text-primary">
-                
-                
+
+
               </div>
-              
+
               <h1 className="text-4xl md:text-6xl font-bold text-foreground leading-tight">
                 O seu caminho para uma vida
                 <span className="bg-gradient-primary bg-clip-text text-transparent"> sem dor</span>
                 <br />
                 e com mais movimento
               </h1>
-              
+
               <p className="text-xl text-muted-foreground leading-relaxed">
-                No Studio Horya, todos os nossos serviços são realizados ou supervisionados 
+                No Studio Horya, todos os nossos serviços são realizados ou supervisionados
                 por uma profissional de Educação Física especializada em problemas de coluna .
-                 Oferecemos atendimento personalizado em Pilates Clássico e terapia manual.
+                Oferecemos atendimento personalizado em Pilates Clássico e terapia manual.
               </p>
             </div>
 
@@ -56,7 +56,7 @@ const HeroSection = () => {
             {/* Quote */}
             <div className="bg-card/50 backdrop-blur-sm rounded-lg p-6 border border-border shadow-soft">
               <blockquote className="text-lg italic text-foreground/90 leading-relaxed">
-                "Com 10 sessões você perceberá a diferença, com 20 sessões os outros irão 
+                "Com 10 sessões você perceberá a diferença, com 20 sessões os outros irão
                 perceber a diferença e com 30 sessões você vai ter um novo corpo."
               </blockquote>
               <cite className="text-sm text-muted-foreground font-medium mt-2 block">
@@ -70,8 +70,7 @@ const HeroSection = () => {
             <div className="">
               <div className="">
                 <div className="">
-                  <Star className=""/>
-                </div> <img src="src/assets/banner.png" width="700" height= "300" />
+                </div> <img src="src/assets/banner.png" width="700" height="300" />
                 <p className=""></p>
                 <p className=""></p>
               </div>
