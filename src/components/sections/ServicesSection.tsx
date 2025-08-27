@@ -114,18 +114,8 @@ const ServicesSection = () => {
                     Focado no condicionamento físico e na melhora de dores em geral, voltado principalmente para problemas de coluna . Com aula individualizadas  a cada necessidade .
                   </p>
                 </div>
-
-                <div className="bg-card/80 rounded-lg p-6 border border-primary/20">
-                  <h4 className="text-lg font-semibold text-foreground mb-3 flex items-center">
-                    <Zap  />
-                    
-                  </h4>
-                  <p className="">
-                    
-                  </p>
-                </div>
               </div>
-            </div>
+            </div> 
 
             <div className="relative">
               <div className="aspect-[4/3] bg-gradient-primary rounded-2xl shadow-wellness flex items-center justify-center">
