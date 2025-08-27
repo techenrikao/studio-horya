@@ -169,18 +169,7 @@ const ServicesSection = () => {
             </div>
           </div>
 
-          {/* Massagem Section */}
-          <div id="massagem" className="">
-            <div className="space-y-6 animate-fade-up">
-              <div className="flex items-center space-x-3 mb-4">
-              
-              </div>
-              
-              <p className="text-xl text-muted-foreground leading-relaxed">
-                
-              </p>
-            </div>
-           </div>
+          
         </div>
       </div>
     </section>
