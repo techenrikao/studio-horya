@@ -179,34 +179,8 @@ const ServicesSection = () => {
               <p className="text-xl text-muted-foreground leading-relaxed">
                 
               </p>
-
-              <div className="">
-                <div className="">
-                  <h4 className=""></h4>
-                  <p className="">
-                    
-                  </p>
-                </div>
-
-                <div className="">
-                  <h4 className="text-lg font-semibold text-foreground mb-3"></h4>
-                  <p className="text-muted-foreground leading-relaxed">
-                    
-                  </p>
-                </div>
-              </div>
             </div>
-
-            <div className="">
-              <div className="">
-                <div className="">
-                 
-                  <p className=""></p>
-                  <p className=""></p>
-                </div>
-              </div>
-            </div>
-          </div>
+           </div>
         </div>
       </div>
     </section>
