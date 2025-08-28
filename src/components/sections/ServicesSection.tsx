@@ -128,36 +128,46 @@ const ServicesSection = () => {
             </div>
           </div>
 
-           <div className="grid lg:grid-cols-3 gap-8 mb-16">
-          {services.map((service, index) => (
-            <Card key={service.id} className="hover:shadow-wellness transition-all duration-300 hover:-translate-y-2 bg-card/50 backdrop-blur-sm">
-              <CardHeader className="text-center pb-4">
-                <div className={`w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4`}>
-                  <service.icon className="h-8 w-8 text-white" />
+          {/* Fisioterapia Section */}
+          <div id="fisioterapia" className="grid lg:grid-cols-2 gap-12 items-center">
+            <div className="relative lg:order-1">
+              <div className="aspect-[4/3] bg-gradient-hero rounded-2xl shadow-wellness flex items-center justify-center">
+                <div className="text-center text-white">
+                  <Stethoscope className="h-16 w-16 mx-auto mb-4" />
+                  <p className="text-lg font-medium">Fisioterapia Avançada</p>
+                  <p className="text-sm opacity-90">Tratamento Especializado</p>
                 </div>
-                <CardTitle className="text-xl text-foreground">{service.title}</CardTitle>
-                <p className="text-sm text-primary font-medium">{service.subtitle}</p>
-              </CardHeader>
-              <CardContent className="space-y-6">
-                <p className="text-muted-foreground leading-relaxed">{service.description}</p>
-                
-                <ul className="space-y-2">
-                  {service.features.map((feature, idx) => (
-                    <li key={idx} className="flex items-center space-x-3">
-                      <div className="w-2 h-2 bg-primary rounded-full" />
-                      <span className="text-sm text-foreground">{feature}</span>
-                    </li>
-                  ))}
-                </ul>
+              </div>
+            </div>
 
-                <Button variant="outline" className="w-full group">
-                  Saiba Mais
-                  <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                </Button>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
+            <div className="space-y-6 animate-fade-up lg:order-2">
+              <div className="flex items-center space-x-3 mb-4">
+                <Stethoscope className="h-8 w-8 text-primary" />
+                <h3 className="text-3xl font-bold text-foreground">Fisioterapia</h3>
+              </div>
+              
+              <p className="text-xl text-muted-foreground leading-relaxed">
+                Tratamento completo para diversas patologias musculoesqueléticas, 
+                utilizando técnicas modernas e equipamentos de última geração.
+              </p>
+
+              <div className="grid sm:grid-cols-2 gap-4">
+                {[
+                  "Artrite e Artrose",
+                  "Hérnias de Disco",
+                  "Tendinites",
+                  "Lesões Esportivas",
+                  "Dores Cervicais",
+                  "Problemas Posturais"
+                ].map((condition, index) => (
+                  <div key={index} className="flex items-center space-x-3 bg-card/50 rounded-lg p-3">
+                    <div className="w-2 h-2 bg-primary rounded-full" />
+                    <span className="text-foreground font-medium">{condition}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
 
           
         </div>
