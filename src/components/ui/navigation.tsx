@@ -10,7 +10,6 @@ const Navigation = () => {
     { label: "Sobre Nós", href: "#about" },
     { label: "Pilates", href: "#pilates" },
     { label: "Depoimento", href: "#fisioterapia" },
-    
     { label: "Contato", href: "#contact" },
   ];
 
