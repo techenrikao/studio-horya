@@ -25,7 +25,7 @@ const Navigation = () => {
               </h1>
             */}
           
-            <img src="src/assets/logo preta.png" width="200px" />
+            <img src="src/assets/logo preta.png" width="200px"/>
           </div>
 
           {/* Desktop Menu */}
